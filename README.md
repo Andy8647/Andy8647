@@ -25,7 +25,7 @@
 <div align="center">
 
 # 📊 GitHub Stats:
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats?show_icons=true&theme=tokyonight)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats?show_icons=true&theme=material-palenight&hide=contribs,prs)
 
 </div>  
  
