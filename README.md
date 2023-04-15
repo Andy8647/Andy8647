@@ -2,7 +2,7 @@
 <br><br>
 
 <div align="center">
-🇨🇦 🍁 I am a Full Stack Developer based in Toronto. <br>
+🍁 I am a Full Stack Developer based in Toronto. <br>
 <div>
 
 
@@ -10,9 +10,8 @@
 
 <div align="center">
 
-[
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) 
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=) 
 
 </div>
 
