@@ -1,4 +1,4 @@
-## <h1 align="center"> 🤚 Hi I'm Andy Luo 🤚</h1>
+<h1 align="center"> 🤚 Hi I'm Andy Luo 🤚</h1>
 
 <div align="center">
 🍁 I am a Full Stack Developer based in Toronto.
