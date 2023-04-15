@@ -23,9 +23,11 @@
 
 <div align="center">
   
-# 📊 GitHub Stats:
+  # 📊 GitHub Stats:
   
-[![GitHub stats](https://vercel.com/andy8647/github-readme-stats/CFsRfGDxoBiZjFrbjY37UZysLYKk/api?username=Andy8647?show_icons=true&theme=material-palenight&hide=contribs,prs)](https://andy8647.com)
-[![Top Langs](https://vercel.com/andy8647/github-readme-stats/CFsRfGDxoBiZjFrbjY37UZysLYKkapi/top-langs/?username=Andy8647)](https://andy8647.com)
+  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight)](https://github.com/anuraghazra/github-readme-stats)
+
+  [![Top Langs](https://vercel.com/andy8647/github-readme-stats/CFsRfGDxoBiZjFrbjY37UZysLYKkapi/top-langs/?username=Andy8647)](https://andy8647.com)
   
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template)](https://github.com/anuraghazra/github-readme-stats)
 </div>  
