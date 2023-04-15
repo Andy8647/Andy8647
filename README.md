@@ -10,9 +10,7 @@
 <div align="center">
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) 
-  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=)
-  [![Disocord](https://badges.aleen42.com/src/discord.svg)](https://discordapp.com/users/2634)
-  
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=)  
 
 </div>
   
