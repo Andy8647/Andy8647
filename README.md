@@ -24,7 +24,7 @@
 <div align="center">
   
 # 📊 GitHub Stats:
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647?show_icons=true&theme=material-palenight&hide=contribs,prs&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647?show_icons=true&theme=material-palenight&hide=contribs,prs)](https://andy8647.com)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://andy8647.com)
   
 </div>  
