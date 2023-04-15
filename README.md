@@ -22,9 +22,9 @@
   
   [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight&hide=contribs,prs)](https://github.com/anuraghazra/github-readme-stats)
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
   
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template)](https://github.com/anuraghazra/github-readme-stats)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
   
 </div>    
 
