@@ -26,9 +26,7 @@
 <div align="center">
 
 # 📊 GitHub Stats:
-![](https://githubstat-git-main-doctoey.vercel.app/api?username=doctoey&theme=onedark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=doctoey&theme=onedark&hide_border=false)<br/>
-![](https://githubstat-git-main-doctoey.vercel.app/api/top-langs/?username=doctoey&theme=onedark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats?show_icons=true&theme=tokyonight)
 
 </div>  
  
