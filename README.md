@@ -25,9 +25,9 @@
   
   # 📊 GitHub Stats:
   
-  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight)](https://github.com/anuraghazra/github-readme-stats)
+  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight&hide=contribs,prs)](https://github.com/anuraghazra/github-readme-stats)
 
-  [![Top Langs](https://vercel.com/andy8647/github-readme-stats/CFsRfGDxoBiZjFrbjY37UZysLYKkapi/top-langs/?username=Andy8647)](https://andy8647.com)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats)
   
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template)](https://github.com/anuraghazra/github-readme-stats)
 </div>  
