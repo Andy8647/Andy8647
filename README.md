@@ -21,7 +21,7 @@
   
 </div> 
 
-<div align="center">
+<div style="display: flex; width: 80%; margin: 0 auto">
   
   # 📊 GitHub Stats:
   
@@ -30,4 +30,5 @@
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats)
   
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template)](https://github.com/anuraghazra/github-readme-stats)
+  
 </div>  
