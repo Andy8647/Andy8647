@@ -16,11 +16,15 @@
 
 <h2 align="center"> 💻 Tech Stack :</h2>
 <div align="center">
+  
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
+  
 </div> 
 
 <div align="center">
+  
 # 📊 GitHub Stats:
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647?show_icons=true&theme=material-palenight&hide=contribs,prs&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647)](https://github.com/anuraghazra/github-readme-stats)
+  
 </div>  
