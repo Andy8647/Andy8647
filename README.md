@@ -18,11 +18,11 @@
   
   # 📊 GitHub Stats:
   
-  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight&hide=contribs,prs)](https://github.com/anuraghazra/github-readme-stats)
+  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight&hide=prs)]()
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647&theme=tokyonight)]()
   
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template&theme=tokyonight)](https://github.com/Andy8647/react-portfolio-template)
   
 </div>    
 
