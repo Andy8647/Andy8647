@@ -1,34 +1,75 @@
-<h1 align="center"> 🤚 Hi I'm Andy Luo 🤚</h1>
-
-<div align="center">
-🍁 I am a Full Stack Developer based in Toronto.
-<div>
-
-
-<h2 align="center"> 🌏 Socials :</h2>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=220&section=header&text=Andy%20Luo&fontSize=75&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=Full%20Stack%20Developer%20%7C%20Sydney%20%F0%9F%87%A6%F0%9F%87%BA&descSize=18&descAlignY=55&descColor=8b949e" />
 
 <div align="center">
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) 
-  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc?igshid=YmMyMTA2M2Y=)  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&random=false&width=600&lines=Building+things+that+live+on+the+internet;TypeScript+%7C+React+%7C+Node.js+%7C+Java;Always+learning%2C+always+shipping)](https://git.io/typing-svg)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/)
+[![Website](https://img.shields.io/badge/andy8647.com-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://andy8647.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andy_lgc)
 
 </div>
-  
-<div style="display: flex; width: 80%; margin: 0 auto">
-  
-  # 📊 GitHub Stats:
-  
-  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andy8647&theme=material-palenight&hide=prs)]()
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647&theme=tokyonight)]()
-  
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Andy8647&repo=react-portfolio-template&theme=tokyonight)](https://github.com/Andy8647/react-portfolio-template)
-  
-</div>    
+## About Me
 
-<h2 align="center"> 💻 Tech Stack :</h2>
+```typescript
+const andy = {
+    location: "Sydney, Australia",
+    roles: ["Full Stack Developer"],
+    techStack: {
+        languages:  ["TypeScript", "JavaScript", "Java", "Python"],
+        frontend:   ["React", "Vue", "Next.js"],
+        backend:    ["Node.js", "NestJS", "Express", "Spring Boot"],
+        databases:  ["PostgreSQL", "MongoDB", "MySQL", "Elasticsearch"],
+        devOps:     ["Docker", "AWS", "CI/CD"],
+    },
+    currentFocus: "Building scalable web applications",
+};
+```
+
+## Tech Stack
+
 <div align="center">
-  
-  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Zend](https://img.shields.io/badge/Zend-067593?style=for-the-badge&logo=zend&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![MyBatis](https://img.shields.io/badge/MyBatis-black?style=for-the-badge&logo=mybatis&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-black?style=for-the-badge&logo=typeorm&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm)
 
-</div> 
+[![My Skills](https://skillicons.dev/icons?i=ts,js,python,java,react,vue,nextjs,nodejs,express,nestjs,spring,html,css,tailwind&theme=dark)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,elasticsearch,docker,aws,git&theme=dark)](https://skillicons.dev)
+
+</div>
+
+## GitHub Stats
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Andy8647&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9" />
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=Andy8647&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6E40C9&fire=6E40C9&currStreakLabel=6E40C9&sideLabels=C9D1D9&dates=8B949E&stroke=161B22" />
+</div>
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Andy8647&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9&langs_count=8" />
+</div>
+
+## Activity Graph
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Andy8647&theme=github-compact&bg_color=0d1117&color=6e40c9&line=6e40c9&point=c9d1d9&area=true&area_color=6e40c9&hide_border=true" />
+</div>
+
+## Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake-dark.svg" />
+  </picture>
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Andy8647&color=6e40c9&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=120&section=footer" />
