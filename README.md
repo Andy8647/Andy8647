@@ -40,17 +40,17 @@ const andy = {
 ## GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/3-stats.svg" />
+  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/profile-cards/profile-summary-card-output/github_dark/3-stats.svg" />
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=Andy8647&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6E40C9&fire=6E40C9&currStreakLabel=6E40C9&sideLabels=C9D1D9&dates=8B949E&stroke=161B22" />
 </div>
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/profile-cards/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/profile-cards/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
 </div>
 
 <div align="center">
-  <img width="95%" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <img width="95%" src="https://raw.githubusercontent.com/Andy8647/Andy8647/profile-cards/profile-summary-card-output/github_dark/0-profile-details.svg" />
 </div>
 
 ## Activity Graph
