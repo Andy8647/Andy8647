@@ -21,8 +21,8 @@
 
     .cursor {
       fill: #58a6ff;
-      animation: blink 1s step-end infinite;
-      animation-delay: 4.5s;
+      opacity: 0;
+      animation: fadeIn 6.5s forwards, blink 1s 6.5s step-end infinite;
     }
 
     .line1-clip { animation: typing1 4s steps(22) forwards; }
@@ -62,5 +62,5 @@
   <text class="comment line4" x="24" y="166" opacity="0"># building AI that ships — from model to product 🚀</text>
 
   <!-- Blinking cursor -->
-  <rect class="cursor line4" x="24" y="178" width="10" height="18" opacity="0" />
+  <rect class="cursor" x="24" y="178" width="10" height="18" />
 </svg>
