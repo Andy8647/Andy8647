@@ -1,10 +1,12 @@
 <div align="center">
+  <img width="800" src="./assets/header.svg" alt="terminal header" />
+</div>
 
-# Hey, I'm Andy Luo 👋
+<div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=620&lines=AI+Product+Engineer+%7C+LLM+Systems;LangChain+%7C+LangGraph+%7C+MCP+%7C+RAG;From+model+to+production+%E2%9C%A8)](https://git.io/typing-svg)
-
-Shanghai, CN &nbsp;·&nbsp; [andy8647.com](https://andy8647.com/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/gancheng-luo-andy/) &nbsp;·&nbsp; [Email](mailto:andy8647lgc@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Andy8647)
 
 </div>
 
