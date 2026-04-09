@@ -1,38 +1,38 @@
 <svg width="800" height="220" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    @keyframes typing1 { 0%, 15% { width: 0 } 25%, 100% { width: 340px } }
-    @keyframes typing2 { 0%, 30% { width: 0 } 45%, 100% { width: 520px } }
-    @keyframes typing3 { 0%, 50% { width: 0 } 65%, 100% { width: 415px } }
-    @keyframes blink { 0%, 100% { opacity: 1 } 50% { opacity: 0 } }
-    @keyframes fadeIn { 0%, 60% { opacity: 0 } 75%, 100% { opacity: 1 } }
+  <defs>
+    <clipPath id="c1"><rect x="44" y="54" height="24" width="0">
+      <animate attributeName="width" from="0" to="205" dur="1.6s" begin="0.5s" fill="freeze" calcMode="discrete" values="0;9;19;28;37;47;56;65;75;84;93;103;112;121;131;140;149;159;168;177;186;196;205" keyTimes="0;0.045;0.09;0.136;0.182;0.227;0.273;0.318;0.364;0.409;0.455;0.5;0.545;0.591;0.636;0.682;0.727;0.773;0.818;0.864;0.909;0.955;1" />
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="24" y="84" height="24" width="0">
+      <animate attributeName="width" from="0" to="414" dur="2s" begin="2.5s" fill="freeze" calcMode="discrete" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;234;243;252;261;270;279;288;297;306;315;324;333;342;351;360;369;378;387;396;405;414" keyTimes="0;0.022;0.043;0.065;0.087;0.109;0.13;0.152;0.174;0.196;0.217;0.239;0.261;0.283;0.304;0.326;0.348;0.37;0.391;0.413;0.435;0.457;0.478;0.5;0.522;0.543;0.565;0.587;0.609;0.63;0.652;0.674;0.696;0.717;0.739;0.761;0.783;0.804;0.826;0.848;0.87;0.891;0.913;0.935;0.957;0.978;1" keySplines="" />
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="24" y="119" height="24" width="0">
+      <animate attributeName="width" from="0" to="9" dur="0.08s" begin="5s" fill="freeze" />
+    </rect></clipPath>
+    <clipPath id="c4"><rect x="44" y="119" height="24" width="0">
+      <animate attributeName="width" from="0" to="324" dur="1.8s" begin="5.2s" fill="freeze" calcMode="discrete" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;234;243;252;261;270;279;288;297;306;315;324" keyTimes="0;0.028;0.056;0.083;0.111;0.139;0.167;0.194;0.222;0.25;0.278;0.306;0.333;0.361;0.389;0.417;0.444;0.472;0.5;0.528;0.556;0.583;0.611;0.639;0.667;0.694;0.722;0.75;0.778;0.806;0.833;0.861;0.889;0.917;0.944;0.972;1" />
+    </rect></clipPath>
+    <clipPath id="c5"><rect x="24" y="150" height="24" width="0">
+      <animate attributeName="width" from="0" to="475" dur="2.2s" begin="7.5s" fill="freeze" calcMode="discrete" values="0;9;18;27;36;45;54;63;72;81;90;99;108;117;126;135;144;153;162;171;180;189;198;207;216;225;234;243;252;261;270;279;288;297;306;315;324;333;342;351;360;369;378;387;396;405;414;423;432;441;450;459;468;475" keyTimes="0;0.019;0.038;0.057;0.075;0.094;0.113;0.132;0.151;0.17;0.189;0.208;0.226;0.245;0.264;0.283;0.302;0.321;0.34;0.358;0.377;0.396;0.415;0.434;0.453;0.472;0.491;0.509;0.528;0.547;0.566;0.585;0.604;0.623;0.642;0.66;0.679;0.698;0.717;0.736;0.755;0.774;0.792;0.811;0.83;0.849;0.868;0.887;0.906;0.925;0.943;0.962;0.981;1" />
+    </rect></clipPath>
+  </defs>
 
-    .terminal-bg { fill: #0d1117; rx: 12; }
+  <style>
+    .terminal-bg { fill: #0d1117; }
     .title-bar { fill: #161b22; }
     .dot-red { fill: #ff5f57; }
     .dot-yellow { fill: #febc2e; }
     .dot-green { fill: #28c840; }
-    .title-text { fill: #8b949e; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px; }
-
-    .prompt { fill: #58a6ff; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 15px; font-weight: bold; }
-    .command { fill: #c9d1d9; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 15px; }
-    .output { fill: #7ee787; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 15px; }
-    .comment { fill: #8b949e; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 14px; font-style: italic; }
-    .accent { fill: #d2a8ff; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 15px; }
-
-    .cursor {
-      fill: #58a6ff;
-      opacity: 0;
-      animation: fadeIn 6.5s forwards, blink 1s 6.5s step-end infinite;
-    }
-
-    .line1-clip { animation: typing1 4s steps(22) forwards; }
-    .line2-clip { animation: typing2 5s steps(35) forwards; }
-    .line3-clip { animation: typing3 5.5s steps(28) forwards; }
-    .line4 { animation: fadeIn 6.5s forwards; }
+    .title-text { fill: #8b949e; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 12px; }
+    .prompt { fill: #58a6ff; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 15px; font-weight: bold; }
+    .command { fill: #c9d1d9; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 15px; }
+    .output { fill: #7ee787; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 15px; }
+    .comment { fill: #8b949e; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 14px; font-style: italic; }
+    .accent { fill: #d2a8ff; font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; font-size: 15px; }
   </style>
 
   <!-- Terminal background -->
-  <rect class="terminal-bg" width="800" height="220" />
+  <rect class="terminal-bg" width="800" height="220" rx="12" />
 
   <!-- Title bar -->
   <rect class="title-bar" width="800" height="36" rx="12" />
@@ -42,25 +42,28 @@
   <circle class="dot-red" cx="20" cy="18" r="6" />
   <circle class="dot-yellow" cx="40" cy="18" r="6" />
   <circle class="dot-green" cx="60" cy="18" r="6" />
-  <text class="title-text" x="370" y="22" text-anchor="middle">andy@shanghai ~ </text>
+  <text class="title-text" x="370" y="22" text-anchor="middle">andy@shanghai ~</text>
 
-  <!-- Line 1: whoami -->
-  <text class="prompt" x="24" y="72">❯</text>
-  <clipPath id="c1"><rect class="line1-clip" x="44" y="54" height="24" /></clipPath>
+  <!-- Line 1: prompt + command -->
+  <text class="prompt" x="24" y="72" opacity="0">
+    <set attributeName="opacity" to="1" begin="0.3s" fill="freeze" />
+    ❯
+  </text>
   <text class="command" x="44" y="72" clip-path="url(#c1)">cat /etc/andy/identity</text>
 
   <!-- Line 2: output -->
-  <clipPath id="c2"><rect class="line2-clip" x="24" y="84" height="24" /></clipPath>
   <text class="output" x="24" y="102" clip-path="url(#c2)">Andy Luo — AI Product Engineer | LLM Systems</text>
 
-  <!-- Line 3: skills -->
-  <text class="prompt" x="24" y="132">❯</text>
-  <clipPath id="c3"><rect class="line3-clip" x="44" y="114" height="24" /></clipPath>
-  <text class="accent" x="44" y="132" clip-path="url(#c3)">LangChain · RAG · Agents · PyTorch</text>
+  <!-- Line 3: prompt + skills -->
+  <text class="prompt" x="24" y="137" clip-path="url(#c3)">❯</text>
+  <text class="accent" x="44" y="137" clip-path="url(#c4)">LangChain · RAG · Agents · PyTorch</text>
 
   <!-- Line 4: comment -->
-  <text class="comment line4" x="24" y="166" opacity="0"># building AI that ships — from model to product 🚀</text>
+  <text class="comment" x="24" y="170" clip-path="url(#c5)"># building AI that ships — from model to product 🚀</text>
 
   <!-- Blinking cursor -->
-  <rect class="cursor" x="24" y="178" width="10" height="18" />
+  <rect x="24" y="180" width="10" height="16" fill="#58a6ff" opacity="0">
+    <set attributeName="opacity" to="1" begin="10s" fill="freeze" />
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" begin="10s" repeatCount="indefinite" />
+  </rect>
 </svg>
