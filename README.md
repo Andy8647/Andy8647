@@ -57,7 +57,6 @@ pi install npm:@andy8647/pi-toolbox
 | | |
 |---|---|
 | **[superpowers (fork)](https://github.com/Andy8647/superpowers)** | Plan generation kept dying on long runs: past ~119K tokens prompt cache dropped to zero, and a 3,000-line plan in one response got the stream killed. The fix was structural, not prompt-level — split plans into an index plus self-contained per-task files, so the controller reads only the index and each subagent reads only its own task. 9 files, +216/−108. |
-| **[dsv4-test](https://github.com/Andy8647/dsv4-test)** | What actually breaks when a coding agent is pointed at a non-Anthropic model — dual-model routing and SWE-bench Lite, verified end to end rather than assumed. |
 | **[pdf-injection-scanner](https://github.com/Andy8647/pdf-injection-scanner)** [![stars](https://img.shields.io/github/stars/Andy8647/pdf-injection-scanner?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pdf-injection-scanner) | Finds prompt injection hidden inside PDFs before an agent reads them: white text, 0.1pt fonts, content positioned off-page. |
 | **[agent-atlas](https://github.com/Andy8647/agent-atlas)** | Interactive learning platform for the agent application layer — ReAct through harness engineering. |
 
