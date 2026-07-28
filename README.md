@@ -4,10 +4,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Andy8647)
-[![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Andy8647) [![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
 
 </div>
 
