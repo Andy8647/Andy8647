@@ -34,7 +34,13 @@ jobs:
           AUTO_PUSH: false
 
       - name: Copy cards to dist
-        run: cp -r profile-summary-card-output dist/
+        # Only the github_dark theme is referenced by the README; the action
+        # emits 60+ unused theme dirs. Cards 0 (profile-details) and 3 (stats)
+        # never generate, so nothing links to them.
+        run: |
+          mkdir -p dist/profile-summary-card-output/github_dark
+          cp profile-summary-card-output/github_dark/2-most-commit-language.svg \
+             dist/profile-summary-card-output/github_dark/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
