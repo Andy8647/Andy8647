@@ -54,37 +54,36 @@ ROLE = {
     "comment": (C["overlay0"], 400, True),
 }
 
-# Nerd Font glyphs, all verified present in MapleMono-NF.
-I_TERM  = ""  # terminal
-I_AGENT = ""  # cogs
-I_CTX   = ""  # database
-I_MCP   = ""  # cubes
-I_REL   = ""  # refresh -- retry/resume, which is what the work is
+# Nerd Font glyphs, all verified present in MapleMono-NF, ink <= 1039 units
+# so two padding spaces clear them.
+I_TERM  = "\uf489"  # terminal
+I_RAG   = "\uf1c0"  # database -- retrieval
+I_CTX   = "\uf0e8"  # sitemap -- structuring what goes into the window
+I_MCP   = "\uf1b3"  # cubes -- modular tools
+I_EVAL  = "\uf080"  # bar chart -- evals
 PAD = "  "          # clears the icon ink; needs xml:space="preserve"
 
 TITLE = f"{I_TERM}{PAD}andy@shanghai ~"
 
 # (y, font-size, [(text, role)], begin, dur)
 LINES = [
-    (72, 15, [("❯ ", "prompt"), ("cat", "cmd"), (" ~/.andy/identity", "arg")], 0.3, 1.0),
+    (72, 15, [("\u276f ", "prompt"), ("cat", "cmd"), (" ~/.andy/identity", "arg")], 0.3, 1.0),
     (100, 15, [("Andy Luo", "name"),
-               (" — builds agents, and keeps them running", "out")], 1.5, 1.2),
-    (134, 15, [("❯ ", "prompt"), ("agent", "cmd"), (" run", "arg"),
-               (" --task", "flag"), (' "ship it"', "str"),
-               (" --hours", "flag"), (" 4", "num")], 3.0, 1.3),
-    (162, 15, [(I_AGENT, "icon"), (f"{PAD}Agents", "accent"), ("  ·  ", "dim"),
-               (I_CTX, "icon"), (f"{PAD}Context engineering", "accent"), ("  ·  ", "dim"),
-               (I_MCP, "icon"), (f"{PAD}MCP", "accent"), ("  ·  ", "dim"),
-               (I_REL, "icon"), (f"{PAD}Reliability", "accent")], 4.5, 1.5),
-    (192, 15, [("✔ ", "ok"), ("rate limit hit ", "out"), ("→", "arrow"),
-               (" waited for reset ", "out"), ("→", "arrow"),
-               (" resumed", "out")], 6.2, 1.3),
-    (220, 15, [("✔ ", "ok"), ("plan split per task ", "out"), ("→", "arrow"),
-               (" context stayed under budget", "out")], 7.7, 1.4),
-    (254, 14, [("# the second half is where the work is", "comment")], 9.3, 1.2),
+               (" \u2014 full-stack engineer who builds agents", "out")], 1.5, 1.2),
+    (134, 15, [("\u276f ", "prompt"), ("agent", "cmd"), (" build", "arg"),
+               (" --rag", "flag"), (" --tools", "flag"), (" --evals", "flag")], 3.0, 1.3),
+    (162, 15, [(I_RAG, "icon"), (f"{PAD}RAG", "accent"), ("  \u00b7  ", "dim"),
+               (I_CTX, "icon"), (f"{PAD}Context engineering", "accent"), ("  \u00b7  ", "dim"),
+               (I_MCP, "icon"), (f"{PAD}MCP", "accent"), ("  \u00b7  ", "dim"),
+               (I_EVAL, "icon"), (f"{PAD}Evals", "accent")], 4.5, 1.5),
+    (192, 15, [("\u2714 ", "ok"), ("MCP server ", "out"), ("\u2192", "arrow"),
+               (" one source of truth for the app and the agent", "out")], 6.2, 1.4),
+    (220, 15, [("\u2714 ", "ok"), ("swappable model layer ", "out"), ("\u2192", "arrow"),
+               (" Anthropic \u00b7 OpenAI \u00b7 DeepSeek \u00b7 Gemini", "out")], 7.8, 1.4),
+    (254, 14, [("# the model is the easy part", "comment")], 9.4, 1.0),
 ]
 
-CURSOR_AT = 10.8
+CURSOR_AT = 10.7
 
 _metrics = {}
 

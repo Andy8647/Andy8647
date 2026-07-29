@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Andy8647) [![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com) [![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
 
 </div>
 
@@ -14,11 +14,17 @@
 
 ```python
 andy = {
-    "does": "builds agents, and keeps them running",
-    "the_interesting_half": [
-        "context budgets — what breaks past 119K tokens",
-        "long-run reliability — rate limits, resumes, dead streams",
-        "harness portability — same agent, a different model",
+    "is": "a full-stack engineer who builds agents — heaviest on the backend",
+    "agent_layer": [
+        "RAG — chunking, hybrid retrieval, reranking, citations",
+        "prompt & context engineering — what goes in the window, and what doesn't",
+        "MCP servers & tool calling — agents that change state, not just describe it",
+        "evals — measure the pipeline instead of trusting the demo",
+    ],
+    "backend_under_it": [
+        "FastAPI · SQLAlchemy · Alembic · Postgres · Redis",
+        "Kafka for the async seams, Kubernetes and Docker to run it",
+        "a model layer that swaps Anthropic/OpenAI/DeepSeek/Gemini",
     ],
     "also": "computer vision, trained and shipped on-device",
     "off_duty": "photography — 7M views / 57K downloads on Unsplash",
@@ -71,13 +77,17 @@ pi install npm:@andy8647/pi-toolbox
 
 **Agents & LLM** &nbsp;
 ![MCP](https://img.shields.io/badge/MCP-6E40C9?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square)
 
-**Build** &nbsp;
-[![Skills](https://skillicons.dev/icons?i=python,ts,react,fastapi,postgres,docker&theme=dark)](https://skillicons.dev)
+**Backend & Infra** &nbsp;
+[![Skills](https://skillicons.dev/icons?i=python,fastapi,postgres,redis,kafka,docker,kubernetes,nginx&theme=dark)](https://skillicons.dev)
+
+**Frontend** &nbsp;
+[![Skills](https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite&theme=dark)](https://skillicons.dev)
 
 **Vision & On-device** &nbsp;
 [![Skills](https://skillicons.dev/icons?i=pytorch,swift&theme=dark)](https://skillicons.dev)
