@@ -45,13 +45,17 @@ andy = {
 
 [github.com/Andy8647/pi-toolbox](https://github.com/Andy8647/pi-toolbox): one consistent frame around every tool call — built-ins, MCP, subagents — with bash syntax highlighting. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-toolbox?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-toolbox)
 
-[github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline** — a Starship-inspired statusline and Opencode-style TUI for pi. Pill footer with directory, git branch & status, runtime detection, context usage, token counts and cost at a glance; themeable colour palette with `$ref` expansion, fully custom `footerFormat` templates, `model`/`thinking` segments; bordered editor with accent rail, per-mode cursor styles and mouse selection. Forked from pi-zentui, since diverged well past upstream. [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline)
+[github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline** — a Starship-inspired statusline and Opencode-style TUI for pi. Pill footer with directory, git branch & status, runtime detection, context usage, token counts and cost at a glance; themeable colour palette with `$ref` expansion, fully custom `footerFormat` templates, `model`/`thinking` segments; bordered editor with accent rail, per-mode cursor styles and mouse selection. Forked from pi-zentui, since diverged well past upstream. [![npm](https://img.shields.io/npm/dm/pi-starline?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-starline) [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline)
 
 [github.com/Andy8647/pi-balance](https://github.com/Andy8647/pi-balance): real-time API provider balance in the pi status bar — DeepSeek, Moonshot, OpenRouter, Codex and more.
 
 [github.com/Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context): `/ide` for pi. Select text in Neovim or VS Code, switch to the agent — it already knows the file, cursor and selection. No copy-paste. [![npm](https://img.shields.io/npm/dm/pi-ide-context?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ide-context)
 
 [github.com/Andy8647/pi-agent-loop](https://github.com/Andy8647/pi-agent-loop): cross-provider rate-limit detection and auto-resume. Tells a soft quota limit apart from a hard 403, waits for the real reset, picks the task back up. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-agent-loop?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-agent-loop)
+
+**Upstream contributions**
+
+[github.com/nicobailon/pi-powerline-footer](https://github.com/nicobailon/pi-powerline-footer): 4 merged PRs — opt-in git host icon (GitHub/GitLab/Bitbucket), configurable display formats for `context_pct`/`cache_read` segments, session token-scan caching for perf, `copyOnSelect` config toggle.
 
 ```bash
 pi install npm:@andy8647/pi-agent-loop
