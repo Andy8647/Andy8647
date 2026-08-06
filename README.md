@@ -41,13 +41,17 @@ andy = {
 
 ## What I'm Building
 
-**Agent tooling** — things I built because a long-running agent kept breaking
+**Agent harness UI & tooling** — extensions for the [pi](https://pi.dev) coding agent, built because a long-running agent kept breaking. Sorted by npm downloads (last month).
 
-| | | |
-|---|---|---|
-| **[pi-agent-loop](https://github.com/Andy8647/pi-agent-loop)** | Cross-provider rate-limit detection and auto-resume. Tells a soft quota limit apart from a hard 403, waits for the real reset, picks the task back up. | [![npm](https://img.shields.io/npm/dm/@andy8647/pi-agent-loop?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-agent-loop) |
-| **[pi-ide-context](https://github.com/Andy8647/pi-ide-context)** | `/ide` for pi. Select text in Neovim, switch to the agent — it already knows the file, cursor and selection. No copy-paste. | [![npm](https://img.shields.io/npm/dm/pi-ide-context?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ide-context) |
-| **[pi-toolbox](https://github.com/Andy8647/pi-toolbox)** | One consistent frame around every tool call — built-ins, MCP, subagents — with bash syntax highlighting. | [![npm](https://img.shields.io/npm/dm/@andy8647/pi-toolbox?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-toolbox) |
+[github.com/Andy8647/pi-toolbox](https://github.com/Andy8647/pi-toolbox): one consistent frame around every tool call — built-ins, MCP, subagents — with bash syntax highlighting. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-toolbox?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-toolbox)
+
+[github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline** — a Starship-inspired statusline and Opencode-style TUI for pi. Pill footer with directory, git branch & status, runtime detection, context usage, token counts and cost at a glance; themeable colour palette with `$ref` expansion, fully custom `footerFormat` templates, `model`/`thinking` segments; bordered editor with accent rail, per-mode cursor styles and mouse selection. Forked from pi-zentui, since diverged well past upstream. [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline)
+
+[github.com/Andy8647/pi-balance](https://github.com/Andy8647/pi-balance): real-time API provider balance in the pi status bar — DeepSeek, Moonshot, OpenRouter, Codex and more.
+
+[github.com/Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context): `/ide` for pi. Select text in Neovim or VS Code, switch to the agent — it already knows the file, cursor and selection. No copy-paste. [![npm](https://img.shields.io/npm/dm/pi-ide-context?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ide-context)
+
+[github.com/Andy8647/pi-agent-loop](https://github.com/Andy8647/pi-agent-loop): cross-provider rate-limit detection and auto-resume. Tells a soft quota limit apart from a hard 403, waits for the real reset, picks the task back up. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-agent-loop?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-agent-loop)
 
 ```bash
 pi install npm:@andy8647/pi-agent-loop
@@ -57,17 +61,15 @@ pi install npm:@andy8647/pi-toolbox
 
 **Agent internals** — context engineering and the failure modes underneath
 
-| | |
-|---|---|
-| **[superpowers (fork)](https://github.com/Andy8647/superpowers)** | Plan generation kept dying on long runs: past ~119K tokens prompt cache dropped to zero, and a 3,000-line plan in one response got the stream killed. The fix was structural, not prompt-level — split plans into an index plus self-contained per-task files, so the controller reads only the index and each subagent reads only its own task. 9 files, +216/−108. |
-| **[pdf-injection-scanner](https://github.com/Andy8647/pdf-injection-scanner)** [![stars](https://img.shields.io/github/stars/Andy8647/pdf-injection-scanner?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pdf-injection-scanner) | Finds prompt injection hidden inside PDFs before an agent reads them: white text, 0.1pt fonts, content positioned off-page. |
-| **[agent-atlas](https://github.com/Andy8647/agent-atlas)** | Interactive learning platform for the agent application layer — ReAct through harness engineering. |
+[github.com/Andy8647/superpowers](https://github.com/Andy8647/superpowers) (fork): plan generation kept dying on long runs — past ~119K tokens prompt cache dropped to zero, and a 3,000-line plan in one response got the stream killed. The fix was structural, not prompt-level: split plans into an index plus self-contained per-task files, so the controller reads only the index and each subagent reads only its own task. 9 files, +216/−108.
+
+[github.com/Andy8647/pdf-injection-scanner](https://github.com/Andy8647/pdf-injection-scanner): finds prompt injection hidden inside PDFs before an agent reads them — white text, 0.1pt fonts, content positioned off-page. [![stars](https://img.shields.io/github/stars/Andy8647/pdf-injection-scanner?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pdf-injection-scanner)
+
+[github.com/Andy8647/agent-atlas](https://github.com/Andy8647/agent-atlas): interactive learning platform for the agent application layer — ReAct through harness engineering.
 
 **Computer vision** — trained, converted, shipped to a device
 
-| | |
-|---|---|
-| **[MahjongVis](https://github.com/Andy8647/MahjongVis)** | Real-time mahjong tile recognition on iPhone. 3,713 self-annotated images across 42 classes, YOLOv8s trained 150 epochs, converted to CoreML with built-in NMS, running live through SwiftUI + AVCaptureSession. |
+[github.com/Andy8647/MahjongVis](https://github.com/Andy8647/MahjongVis): real-time mahjong tile recognition on iPhone. 3,713 self-annotated images across 42 classes, YOLOv8s trained 150 epochs, converted to CoreML with built-in NMS, running live through SwiftUI + AVCaptureSession.
 
 ---
 
