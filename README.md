@@ -117,18 +117,6 @@ pi install npm:pi-tidy
 </div>
 
 <div align="center">
-  <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/github-snake-dark.svg" />
-  </picture>
-</div>
-
-<div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Andy8647&color=58a6ff&style=flat-square&label=visitors)
 
