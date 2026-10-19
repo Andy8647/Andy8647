@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com) [![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gancheng-luo-andy/) [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andy8647lgc@gmail.com) [![npm](https://img.shields.io/badge/npm-andy8647-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/~andy8647) [![Unsplash](https://img.shields.io/badge/Unsplash-7M_views-000000?style=flat-square&logo=unsplash&logoColor=white)](https://unsplash.com/@andy8647)
 
 </div>
 
@@ -32,7 +32,7 @@ andy = {
         "MIT (Artificial Intelligence) @ UNSW Sydney (2025–2026)",
         "BSc Computer Science @ University of Toronto",
     ],
-    "before_agents": "4 years full-stack — commonsku, SnapPay",
+    "before_agents": "4 years full-stack — B2B SaaS and payments",
     "based_in": "Shanghai · remote",
 }
 ```
@@ -41,9 +41,13 @@ andy = {
 
 ## What I'm Building
 
-**Agent harness UI & tooling** — extensions for the [pi](https://pi.dev) coding agent, built because a long-running agent kept breaking. Sorted by npm downloads (last month).
+**Agent harness tooling** — plugins for the [pi](https://pi.dev) and DeepSeek Harness coding agents, built because a long-running agent kept breaking.
 
-[github.com/Andy8647/pi-toolbox](https://github.com/Andy8647/pi-toolbox): one consistent frame around every tool call — built-ins, MCP, subagents — with bash syntax highlighting. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-toolbox?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-toolbox)
+[github.com/Andy8647/dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval): **Automode** for DeepSeek Harness — a fourth permission preset where an LLM classifier, not a human, approves every tool call. Hard-deny rules run first, the classifier second, and anything that times out or fails to parse is denied. Tool output never reaches the classifier, so injected content can't talk it into an allow. [![stars](https://img.shields.io/github/stars/Andy8647/dsh-auto-approval?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/dsh-auto-approval)
+
+pi extensions:
+
+[github.com/Andy8647/pi-tidy](https://github.com/Andy8647/pi-tidy): Claude Code-style tool folding for pi — a reply's tool calls collapse to one clickable line, while edits and background jobs stay visible. [![npm](https://img.shields.io/npm/dm/pi-tidy?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-tidy)
 
 [github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline** — a Starship-inspired statusline and Opencode-style TUI for pi. Pill footer with directory, git branch & status, runtime detection, context usage, token counts and cost at a glance; themeable colour palette with `$ref` expansion, fully custom `footerFormat` templates, `model`/`thinking` segments; bordered editor with accent rail, per-mode cursor styles and mouse selection. Forked from pi-zentui, since diverged well past upstream. [![npm](https://img.shields.io/npm/dm/pi-starline?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-starline) [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline)
 
@@ -60,7 +64,7 @@ andy = {
 ```bash
 pi install npm:@andy8647/pi-agent-loop
 pi install npm:pi-ide-context
-pi install npm:@andy8647/pi-toolbox
+pi install npm:pi-tidy
 ```
 
 **Agent internals** — context engineering and the failure modes underneath
@@ -103,6 +107,14 @@ pi install npm:@andy8647/pi-toolbox
 </div>
 
 ---
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-3d-contrib/profile-night-view.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-3d-contrib/profile-green.svg" />
+    <img alt="3D contribution skyline" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-3d-contrib/profile-night-view.svg" />
+  </picture>
+</div>
 
 <div align="center">
   <img height="180" src="https://raw.githubusercontent.com/Andy8647/Andy8647/output/profile-summary-card-output/github_dark/2-most-commit-language.svg" />

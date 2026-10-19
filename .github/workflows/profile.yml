@@ -42,6 +42,20 @@ jobs:
           cp profile-summary-card-output/github_dark/2-most-commit-language.svg \
              dist/profile-summary-card-output/github_dark/
 
+      - name: Generate 3D contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Copy skyline to dist
+        # README uses the night view for dark mode and green for light mode.
+        run: |
+          mkdir -p dist/profile-3d-contrib
+          cp profile-3d-contrib/profile-night-view.svg \
+             profile-3d-contrib/profile-green.svg \
+             dist/profile-3d-contrib/
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
