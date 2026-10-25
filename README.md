@@ -41,31 +41,29 @@ andy = {
 
 ## What I'm Building
 
-**Agent harness tooling** — plugins for the [pi](https://pi.dev) and DeepSeek Harness coding agents, built because a long-running agent kept breaking.
+**Agent harness tooling** — extensions for the [pi](https://pi.dev) coding agent and the DeepSeek Harness, built because a long-running agent kept breaking.
 
-[github.com/Andy8647/dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval): **Automode** for DeepSeek Harness — a fourth permission preset where an LLM classifier, not a human, approves every tool call. Hard-deny rules run first, the classifier second, and anything that times out or fails to parse is denied. Tool output never reaches the classifier, so injected content can't talk it into an allow. [![stars](https://img.shields.io/github/stars/Andy8647/dsh-auto-approval?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/dsh-auto-approval)
+[github.com/Andy8647/pi-tidy](https://github.com/Andy8647/pi-tidy): tool folding for pi. A reply's tool calls collapse to one clickable line, while edits, failures and background jobs stay visible. Rounded transparent frames, Nerd Font icons, per-tool border colours, side-by-side edit diffs. [![stars](https://img.shields.io/github/stars/Andy8647/pi-tidy?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-tidy) [![npm](https://img.shields.io/npm/dm/pi-tidy?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-tidy)
 
-pi extensions:
+[github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline**, a Starship-inspired statusline, Opencode-style editor chrome and fullscreen mouse control for pi. Clickable pills for model, thinking level, git and context; a themeable `$ref` colour palette and custom `footerFormat` templates; select, copy and move the caret anywhere, including the prompt draft. Forked from pi-zentui, since diverged well past upstream. [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline) [![npm](https://img.shields.io/npm/dm/pi-starline?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-starline)
 
-[github.com/Andy8647/pi-tidy](https://github.com/Andy8647/pi-tidy): Claude Code-style tool folding for pi — a reply's tool calls collapse to one clickable line, while edits and background jobs stay visible. [![npm](https://img.shields.io/npm/dm/pi-tidy?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-tidy)
+[github.com/Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context): `/ide` for pi. Select text in Neovim, VS Code or Obsidian, switch to the agent, and it already knows the file, cursor and selection. No copy-paste. [![npm](https://img.shields.io/npm/dm/pi-ide-context?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ide-context)
 
-[github.com/Andy8647/pi-starline](https://github.com/Andy8647/pi-starline): **Starline** — a Starship-inspired statusline and Opencode-style TUI for pi. Pill footer with directory, git branch & status, runtime detection, context usage, token counts and cost at a glance; themeable colour palette with `$ref` expansion, fully custom `footerFormat` templates, `model`/`thinking` segments; bordered editor with accent rail, per-mode cursor styles and mouse selection. Forked from pi-zentui, since diverged well past upstream. [![npm](https://img.shields.io/npm/dm/pi-starline?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-starline) [![stars](https://img.shields.io/github/stars/Andy8647/pi-starline?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pi-starline)
+[github.com/Andy8647/pi-ghostty-tab](https://github.com/Andy8647/pi-ghostty-tab): a slot-configurable Ghostty tab title for pi. Pick which signals you want, in what order: braille spinner while the agent works, an LLM-written session summary when it goes idle, live tool tracking, Ghostty's native OSC 9;4 progress bar, and attention marks for the tab that finished, failed or is waiting on you. [![npm](https://img.shields.io/npm/dm/pi-ghostty-tab?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ghostty-tab)
 
-[github.com/Andy8647/pi-balance](https://github.com/Andy8647/pi-balance): real-time API provider balance in the pi status bar — DeepSeek, Moonshot, OpenRouter, Codex and more.
-
-[github.com/Andy8647/pi-ide-context](https://github.com/Andy8647/pi-ide-context): `/ide` for pi. Select text in Neovim or VS Code, switch to the agent — it already knows the file, cursor and selection. No copy-paste. [![npm](https://img.shields.io/npm/dm/pi-ide-context?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/pi-ide-context)
-
-[github.com/Andy8647/pi-agent-loop](https://github.com/Andy8647/pi-agent-loop): cross-provider rate-limit detection and auto-resume. Tells a soft quota limit apart from a hard 403, waits for the real reset, picks the task back up. [![npm](https://img.shields.io/npm/dm/@andy8647/pi-agent-loop?style=flat-square&label=%20&color=CB3837&logo=npm)](https://www.npmjs.com/package/@andy8647/pi-agent-loop)
-
-**Upstream contributions**
-
-[github.com/nicobailon/pi-powerline-footer](https://github.com/nicobailon/pi-powerline-footer): 4 merged PRs — opt-in git host icon (GitHub/GitLab/Bitbucket), configurable display formats for `context_pct`/`cache_read` segments, session token-scan caching for perf, `copyOnSelect` config toggle.
+[github.com/Andy8647/pi-balance](https://github.com/Andy8647/pi-balance): real-time provider balance in the pi status bar and as a clickable Starline pill. DeepSeek, Moonshot/Kimi, OpenRouter, Codex quota and any `/usage`-compatible API.
 
 ```bash
-pi install npm:@andy8647/pi-agent-loop
-pi install npm:pi-ide-context
 pi install npm:pi-tidy
+pi install npm:pi-starline
+pi install npm:pi-ide-context
+pi install npm:pi-ghostty-tab
+pi install npm:@andy8647/pi-balance
 ```
+
+[github.com/Andy8647/dsh-auto-approval](https://github.com/Andy8647/dsh-auto-approval): **Automode** for DeepSeek Harness, a fourth permission preset where an LLM classifier, not a human, approves every tool call. Hard-deny rules run first, the classifier second, and anything that times out or fails to parse is denied. Tool output never reaches the classifier, so injected content can't talk it into an allow. [![stars](https://img.shields.io/github/stars/Andy8647/dsh-auto-approval?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/dsh-auto-approval)
+
+---
 
 **Agent internals** — context engineering and the failure modes underneath
 
@@ -73,7 +71,7 @@ pi install npm:pi-tidy
 
 [github.com/Andy8647/pdf-injection-scanner](https://github.com/Andy8647/pdf-injection-scanner): finds prompt injection hidden inside PDFs before an agent reads them — white text, 0.1pt fonts, content positioned off-page. [![stars](https://img.shields.io/github/stars/Andy8647/pdf-injection-scanner?style=flat-square&label=%20&color=58a6ff&logo=github)](https://github.com/Andy8647/pdf-injection-scanner)
 
-[github.com/Andy8647/agent-atlas](https://github.com/Andy8647/agent-atlas): interactive learning platform for the agent application layer — ReAct through harness engineering.
+---
 
 **Computer vision** — trained, converted, shipped to a device
 
